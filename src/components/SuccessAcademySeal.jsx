@@ -67,14 +67,6 @@ export default function SuccessAcademySeal({ className = 'w-11 h-11' }) {
         <line x1="136" y1="68" x2="146" y2="100" strokeWidth="2" />
         <path d="M 122 100 Q 136 114 150 100 Z" fill="#081526" stroke="none" />
       </g>
-
-      {/* Simplified SA Orange Laurel Accents */}
-      <g fill="#F7941D">
-        <ellipse cx="78" cy="122" rx="6" ry="2.5" transform="rotate(-30 78 122)" />
-        <ellipse cx="72" cy="113" rx="5.5" ry="2.3" transform="rotate(-45 72 113)" />
-        <ellipse cx="122" cy="122" rx="6" ry="2.5" transform="rotate(30 122 122)" />
-        <ellipse cx="128" cy="113" rx="5.5" ry="2.3" transform="rotate(45 128 113)" />
-      </g>
     </svg>
   );
 }
