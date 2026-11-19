@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --sa-navy: #0A192F;
+    --sa-navy-light: #112240;
+    --sa-orange: #F7941D;
+    --sa-cream: #F8F7F4;
+    --sa-slate: #475569;
+  }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  h1, h2, h3, .font-serif-display {
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  }
+}
+
+/* Custom subtle glassmorphism utility matching the requested blur aesthetic */
+.glass-card-dark {
+  background: rgba(10, 25, 47, 0.58);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.glass-card-light {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(10, 25, 47, 0.08);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F0EC;
+}
+::-webkit-scrollbar-thumb {
+  background: #94A3B8;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0A192F;
+}
